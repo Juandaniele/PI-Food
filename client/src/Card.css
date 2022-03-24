@@ -1,0 +1,40 @@
+.recipecard {
+    margin-top: 10px;
+    background: rgba(0, 0, 0, .8);
+    position:static;
+    box-shadow: 0px 0px 7px rgb(247, 247, 247);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center ;
+}
+.recipecard h1{
+    font-size:20px;
+    color:#a3e6f5
+}
+.recipecard h3{
+    font-size:15px;
+    color: #b1ecb6;
+}
+.recipecard:hover{
+    transform: scale(1.02, 1.02);
+    transition-timing-function: ease-out;
+    transition-duration: 150ms;
+    transform: scale(1.02, 1.02);
+    transition-timing-function: ease-out;
+    transition-duration: 150ms;
+}
+
+.img {
+    position: relative;
+    width: 70%;
+    height: 40%;
+    margin-top: 10px;
+    position:static;
+    border-radius: 1rem;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #368b80;
+    font-style: italic;
+}

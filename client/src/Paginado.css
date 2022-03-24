@@ -1,0 +1,28 @@
+.paginado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+  }
+  .buttonPaginado{
+    background-color:#4cb68d;
+    border-radius: 5px;
+    border: #b1d8b8;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+  }
+  .buttonPaginado:hover{
+    background-color:#018b56;
+  }
+   .buttonPaginado:visited, .buttonPaginado:active {
+    
+    background-color:#018b56;
+}
+ .buttonPaginado:focus{
+  background-color:#018b56;
+  cursor: pointer;
+}
+ 

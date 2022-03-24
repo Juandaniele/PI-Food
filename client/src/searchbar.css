@@ -1,0 +1,29 @@
+.btn1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    width: 60px;
+    height: 30px;
+    background-color: #4cb68d;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-left: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+}
+.btn1:hover{
+    background-color:#00ce7f;
+}
+input {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+    border: none;
+    background-color: #b7e4d3;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    
+}

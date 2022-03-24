@@ -1,0 +1,97 @@
+.titulodetail {
+    color:#90ffd4 ;
+    margin-top: 10px;
+    font-size: 50px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn5 {
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #000000 ;
+    width: 110px;
+    height: 40px;
+    background-color: #4cb68d ;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 5px;
+    transition: .3s ease all;
+}
+.btn5:hover{
+    background-color:#00ce7f;
+}
+
+.div{
+    max-width: 90%;
+    max-height: 40%;
+    margin-left: 5%;
+    background: rgba (255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.7);
+    background-color:rgba(0, 0, 0, 0.7);
+    
+}
+.div h3{
+    border-radius: 5px;
+    display: inline-block;
+    max-width:90%;
+    text-align: justify;
+    color:#00d0ff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.div h4{
+    border-radius: 5px;
+    max-width:60%;
+    text-align: justify;
+    display: inline-block;  
+    margin: 10px;
+    color:#a1eed7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.div img{
+  max-width: 50%;
+  max-height: 50%;
+}
+.detalles{
+      background-color: none;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    
+  }
+  .lds-ripple div {
+    position: absolute;
+    border: 4px solid #7b996f;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 72px;
+      height: 72px;
+      opacity: 0;
+    }
+  }
+  

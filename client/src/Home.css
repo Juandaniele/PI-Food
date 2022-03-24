@@ -1,0 +1,63 @@
+
+
+.tituloHome {
+    color:#90ffd4 ;
+    margin-top: 10px;
+    font-size: 50px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 5px 15px rgba(0,0,0,1);
+    margin-right: 200px;
+}
+.btn {
+    margin-top: 25px;
+    margin-left: 450px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #000000 ;
+    width: 110px;
+    height: 40px;
+    background-color: #4cb68d ;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .3s ease all;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+}
+.btn:hover{
+    background-color:#00ce7f;
+}
+
+label{
+    background-color:#90ffd4 ;
+    font-size: 12px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+}
+.contenedorFiltros  {
+    width: 100%;
+    align-content: center;
+}
+
+.puntuacion {
+    grid-column: 1;
+    grid-row: 1;
+}
+.alfabeticamente {
+    grid-column: 2 ;
+    grid-row: 1;
+}   
+.recetas {
+    grid-column: 3 ;
+    grid-row: 1;
+}
+.puntuacion label, .alfabeticamente label, .recetas label{
+    width: 150px;
+}
+.puntuacion select, .alfabeticamente select, .recetas select{
+    margin-left: 25px;
+}

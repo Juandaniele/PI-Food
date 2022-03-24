@@ -1,0 +1,64 @@
+.titulo{
+    color:#90ffd4 ;
+    margin-top: 5px;
+    font-size: 50px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #000000 ;
+    width: 60px;
+    height: 30px;
+    background-color: #4cb68d ;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin: 5px;
+}
+.btn2:hover{
+    background-color:#00ce7f;
+}
+
+.form{
+    max-width: 600px;
+    background: rgba (255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+    margin-top: 5px;
+}
+.form label{
+    background-color: rgba(177, 216, 183, .7);
+    border-radius: 5px;
+    display: inline-block;
+    width: 150px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 5px;
+}
+.form input{
+    display: inline-block;
+    width: 150px;
+    margin: 5px;
+    
+}
+.form textarea {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+    border: none;
+    background-color: #b7e4d3;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.hola{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
